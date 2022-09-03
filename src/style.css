@@ -113,15 +113,24 @@ h3 {
   margin-top: 20px;
 }
 
+.btn {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
 @media (max-width: 414px) {
   h1 {
     font-size: 70px;
+  }
+
+  .text {
+    text-align: center;
   }
 
   .email {
     font-size: 24px;
   }
 }
-
 
 
