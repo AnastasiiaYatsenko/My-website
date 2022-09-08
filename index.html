@@ -7,11 +7,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/src/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Anastasiia Yatsenko - front-end developer from Ukraine </title>
     <meta name="description" content="Anastasiia Yatsenko - an accountant from Ukraine, who wants to be a front-end developer. This is my website where you can see my works.">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg justify-content-end navbar-color">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Anastasiia Yatsenko</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,29 +26,37 @@
               <a class="nav-link active" aria-current="page" href="#" title="Homepage">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html" title="Information about me">About me</a>
+              <a class="nav-link" href="/about.html" title="Information about me">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html#contact" title="My email">Contact me</a>
+              <a class="nav-link" href="/projects.html" title="Information about me">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html#contact" title="My email">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <h2>
-      👋 Hi, I am
-    </h2>
-    <h1>
-      Anastasiia Yatsenko
-    </h1>
-    <h3>
-      🇺🇦 Accountant, who wants to be a developer
-    </h3>
-    <div class="links">
-      <a href="/about.html#contact" class="contact" title="Contact me">Contact Me</a>
-      <a href="/about.html" class="about" title="About me">About Me</a>
-    </div>
-    <br |>
+    <header class="main-page">
+      <div class="row">
+        <div class="col-6 introduction">
+          <h2>
+            Front-end developer from Ukraine
+          </h2>
+          <h1>
+            Anastasiia Yatsenko
+          </h1>
+          <br>
+          <a href="/contact.html" class="contact-link" title="Contact Anastasiia Yatsenko">Contact me</a>
+        </div>
+        <div class="col-6">
+          <img src="/images/Photo-of-Anastasiia-Yatsenko.png" alt="Photo of Anastasiia Yatsenko" class="img-fluid rounded-circle avatar" width="500">
+        </div>
+      </div>
+    </header>
+    <hr |>
+    <h3>Look at my projects</h3>
     <div class="container">
       <div class="row pt-5">
         <div class="col-sm-6">
