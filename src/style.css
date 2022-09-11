@@ -2,12 +2,12 @@
   --border-color: 2px solid #f790d5;
   --text-color: white;
   --main-color: #6c63ff;
-  --primary-color: #f5f2fe;
 }
 
 body {
   background: #fcdcf4;
   font-family: 'Roboto', sans-serif;
+  margin: 50px;
 }
 
 
@@ -17,6 +17,7 @@ h1 {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
+  font-family: 'Playfair Display', serif;;
 }
 
 
@@ -25,6 +26,11 @@ h2 {
   opacity: 0.9;
   margin: 0;
   text-align: center;
+}
+
+h3 {
+  text-align: center;
+  opacity: 0.9;
 }
 
 hr {
@@ -38,14 +44,24 @@ hr {
   border-width: 2px;
 }
 
+.row p {
+  margin-left: 20px;
+  font-size: 15px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
 .navbar {
   padding: 12px;
+}
+
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
 }
 
 .navbar-color {
   background-color: #fcdcf4;
 }
-
 
 .main-page {
   margin-top: 150px;
@@ -71,15 +87,6 @@ hr {
   color: #f73cb9;
 }
 
-.about {
-  border: var(--border-color);
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  color: #8463ff;
-  margin: 20px;
-}
-
 .columns {
   display: flex;
   justify-content: space-evenly;
@@ -87,24 +94,40 @@ hr {
 }
 
 .text1 {
-  border: var(--primary-color);
-  background: var(--primary-color);
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
   margin-right: 20px;
+  background-color: #f3c9e5;
 }
 
 .text2 {
-  border: var(--primary-color);
-  background: var(--primary-color);
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  background-color: #f3c9e5;
+}
+
+.skills {
+  margin-top: 30px;
+  margin-bottom: 45px;
+  font-size: 45px;
+}
+
+.certificates {
+  margin-top: 30px;
+  margin-bottom: 45px;
+  font-size: 45px;
+}
+
+.certificate-images {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
 }
 
 .email {
@@ -120,22 +143,40 @@ hr {
   text-decoration: underline;
 }
 
-
-
 .bg-pink {
   background: #fdf7fa;
 }
 
-.white-border {
-  border: 10px solid white;
-  padding: 10px;
-  margin-top: 20px;
+.projects h1 {
+  font-size: 65px;
 }
 
-.btn {
-  display: block;
-  margin: 0 auto;
+.projects h2 {
+  font-size: 45px;
+  color: #a50871;
+  text-decoration: underline;
+}
+
+.projects p {
+  font-size: 25px;
+  margin: 25px 0px;
+  font-weight: lighter;
+}
+
+.project-button {
   text-align: center;
+  background-color: #a50871;
+  border-radius: 15px;
+  padding: 20px 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 180px;
+}
+
+.project-button:hover {
+  background-color: #a50871;
+  color: white;
 }
 
 .nav-item {
