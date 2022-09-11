@@ -36,8 +36,8 @@ h3 {
 hr {
   border-color: #a50871;
   display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-top: 10px;
+  margin-bottom: 10px;
   margin-left: 50px;
   margin-right: 50px;
   border-style: inset;
@@ -53,6 +53,10 @@ span {
   font-family: 'Playfair Display', serif;
 }
 
+.about, .projects {
+  padding: 15px;
+}
+
 .row p {
   margin-left: 20px;
   font-size: 15px;
@@ -61,7 +65,8 @@ span {
 }
 
 .navbar {
-  padding: 12px;
+  padding: 9px;
+  margin: 0px 20px;
 }
 
 .navbar-brand {
@@ -105,7 +110,7 @@ span {
 .text1 {
   padding: 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   text-align: center;
   margin-right: 20px;
@@ -115,7 +120,7 @@ span {
 .text2 {
   padding: 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   text-align: center;
   background-color: #f3c9e5;
@@ -139,26 +144,11 @@ span {
   margin: 10px;
 }
 
-.email {
-  display: flex;
-  justify-content: center;
-  color: var(--main-color);
-  font-size: 28px;
-  text-decoration: none;
-  margin-bottom: 30px;
-}
-
-.email:hover {
-  text-decoration: underline;
-}
 
 .bg-pink {
   background: #fdf7fa;
 }
 
-.projects h1 {
-  font-size: 65px;
-}
 
 .projects h2 {
   font-size: 45px;
@@ -206,19 +196,74 @@ span {
   margin-left: 700px;
 }
 
+.social-media-links a {
+  padding: 0 50px;
+}
 
-@media (max-width: 414px) {
-  h1 {
-    font-size: 70px;
+.social-media-links i {
+  font-size: 40px;
+  color: #a50871;
+}
+
+@media (max-width: 950px) {
+
+  body {
+    margin: 0;
   }
 
-  .text {
+  .navbar {
+    margin: 0 6px;
+  }
+
+  .main-page h1 {
+    font-size: 75px;
     text-align: center;
   }
 
-  .email {
-    font-size: 24px;
+  .main-photo {
+    margin-top: 50px;
+    width: 300;
   }
+
+  .skills-section {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .skills-section img {
+    margin: 10px 0;
+  }
+
+  .certificate-images img {
+    margin: 10px 0;
+  }
+
+  .projects h1 {
+    font-size: 75px;
+  }
+
+  .projects img {
+    margin-bottom: 30px;
+  }
+
+  .project-button {
+    margin-left: 0;
+    padding: 17px 17px;
+    font-size: 17px;
+
+  }
+
+  .contacts h1 {
+    font-size: 75px;
+  }
+
+  .contacts p {
+    font-size: 18px;
+  }
+
 }
+
+
 
 
