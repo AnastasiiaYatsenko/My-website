@@ -17,7 +17,7 @@ h1 {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
-  font-family: 'Playfair Display', serif;;
+  font-family: 'Playfair Display', serif;
 }
 
 
@@ -42,6 +42,15 @@ hr {
   margin-right: 50px;
   border-style: inset;
   border-width: 2px;
+}
+
+i {
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+span {
+  font-family: 'Playfair Display', serif;
 }
 
 .row p {
@@ -177,6 +186,10 @@ hr {
 .project-button:hover {
   background-color: #a50871;
   color: white;
+}
+
+.contacts p {
+  font-size: 30px;
 }
 
 .nav-item {
