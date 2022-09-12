@@ -197,7 +197,11 @@ span {
 }
 
 .navbar-nav {
-  margin-left: 700px;
+  margin-left: 650px;
+}
+
+.nav-link {
+  display: flex;
 }
 
 .social-media-links a {
@@ -265,6 +269,11 @@ span {
   .contacts p {
     font-size: 18px;
   }
+
+  .navbar-nav {
+    margin-left: 180px;
+  }
+
 
 }
 
